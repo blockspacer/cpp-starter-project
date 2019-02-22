@@ -40,7 +40,8 @@ Following features are included:
  - [x] static code analysis tools like linters
      ([`cppcheck`](cppcheck), [`clang-tidy`][clangtidy], [`shellcheck`][shcheck])
  - [x] continuous integration: useful not only for pull requests
-     ([Travis CI][travis], [AppVeyor][appveyor], [GitLab CI][gitlabci])
+     ([Travis CI][travis], [AppVeyor][appveyor], [GitLab CI][gitlabci],
+      [Circle CI 2.0][circleci])
  - [ ] continuous deployment
      ([Bintray][bintray]), [GitHub Pages][githubpg])
  - [x] code coverage using [Codecov][codecov]
@@ -110,6 +111,7 @@ Because we use range-v3 and other modern C++ features, we only support these com
 [appveyor]:  https://ci.appveyor.com/project/archer96/cpp-starter-project
 [bintray]:   https//bintray.com/
 [catch2]:    https://github.com/catchorg/Catch2
+[circleci]:  https://circleci.com/
 [clangfmt]:  https://clang.llvm.org/docs/ClangFormat.html
 [clangtidy]: https://clang.llvm.org/extra/clang-tidy/
 [cmake]:     https://cmake.org/
